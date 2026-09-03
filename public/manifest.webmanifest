@@ -1,0 +1,12 @@
+{
+  "name": "HUMO Burger Co.",
+  "short_name": "HUMO",
+  "description": "Hamburguesas ahumadas a la parrilla. Pedí online o por WhatsApp.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0B0C",
+  "theme_color": "#0B0B0C",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

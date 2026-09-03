@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Anton", "Inter", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --color-ink: #0b0b0c;
+  --color-ink-soft: #141416;
+  --color-ink-card: #1b1b1e;
+  --color-line: #2a2a2e;
+  --color-ember: #ff5a1f;
+  --color-ember-dark: #d9430f;
+  --color-gold: #f2c14e;
+  --color-cream: #f5f1ea;
+  --color-cream-dim: #cfc9bd;
+  --color-green: #3fae6b;
+  --color-red: #e14b4b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ink);
+  color: var(--color-cream);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-ember);
+  color: var(--color-ink);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.text-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.01em;
+}
+
+.ember-gradient {
+  background: linear-gradient(135deg, var(--color-ember) 0%, var(--color-gold) 100%);
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
