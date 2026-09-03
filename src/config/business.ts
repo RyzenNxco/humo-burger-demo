@@ -6,18 +6,18 @@ import type { Branch } from '../types';
  * Todo el sitio lee de acá: nombre, contacto, redes, sucursales y moneda.
  */
 export const businessConfig = {
-  name: 'HUMO',
-  fullName: 'HUMO Burger Co.',
+  name: 'El Desembarco',
+  fullName: 'El Desembarco',
   slogan: 'Fuego, humo y una sola regla: la carne manda.',
   shortPitch:
     'Hamburguesas ahumadas a la parrilla, pan brioche de casa y una vuelta de fuego real en cada vuelta de plancha.',
   currency: 'ARS',
   currencySymbol: '$',
   whatsappNumber: '5491155550199', // DEMO — reemplazar por el WhatsApp real del cliente
-  instagramHandle: '@humoburger', // DEMO
+  instagramHandle: '@eldesembarcook', // DEMO
   instagramUrl: 'https://instagram.com/',
   phone: '+54 9 11 5555-0199',
-  email: 'hola@humoburger.demo',
+  email: 'hola@eldesembarco.demo',
   deliveryLinks: {
     pedidosYa: '#',
     rappi: '#',
@@ -29,7 +29,7 @@ export const businessConfig = {
     facebook: 'https://facebook.com/',
   },
   seo: {
-    title: 'HUMO Burger Co. — Hamburguesas ahumadas a la parrilla',
+    title: 'El Desembarco — Hamburguesas ahumadas a la parrilla',
     description:
       'Hamburguesas artesanales ahumadas a la parrilla, combos, promos y delivery. Pedí online o por WhatsApp. Sucursales en toda la ciudad.',
   },
@@ -38,7 +38,7 @@ export const businessConfig = {
 export const branches: Branch[] = [
   {
     id: 'palermo',
-    name: 'HUMO Palermo',
+    name: 'El Desembarco Palermo',
     address: 'Av. Costa Rica 5312',
     city: 'CABA',
     phone: '+54 9 11 5555-0199',
@@ -53,7 +53,7 @@ export const branches: Branch[] = [
   },
   {
     id: 'nunez',
-    name: 'HUMO Núñez',
+    name: 'El Desembarco Núñez',
     address: 'Av. Cabildo 3221',
     city: 'CABA',
     phone: '+54 9 11 5555-0287',
@@ -68,7 +68,7 @@ export const branches: Branch[] = [
   },
   {
     id: 'rosario',
-    name: 'HUMO Rosario Centro',
+    name: 'El Desembarco Rosario Centro',
     address: 'Córdoba 1450',
     city: 'Rosario, Santa Fe',
     phone: '+54 9 341 555-0341',

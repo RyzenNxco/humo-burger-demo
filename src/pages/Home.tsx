@@ -29,7 +29,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1600&q=80&auto=format&fit=crop"
-            alt="Hamburguesa HUMO"
+            alt="Hamburguesa El Desembarco"
             className="h-full w-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/75 to-ink/40" />
@@ -136,7 +136,7 @@ export default function Home() {
           <div>
             <SectionHeading eyebrow="Nuestra historia" title="Todo empezó con una parrilla y demasiada hambre." />
             <p className="mt-5 text-sm leading-relaxed text-cream-dim sm:text-base">
-              HUMO nació de una idea simple: la hamburguesa perfecta no se apura. Elegimos carne de calidad,
+              El Desembarco nació de una idea simple: la hamburguesa perfecta no se apura. Elegimos carne de calidad,
               la molemos nosotros, la llevamos a la plancha bien caliente y la dejamos formar esa costra
               que solo el fuego real puede dar. El pan lo horneamos todos los días. La salsa insignia lleva
               seis años de ajustes hasta quedar como queríamos.
@@ -213,7 +213,7 @@ export default function Home() {
 
       {/* BRANCHES TEASER */}
       <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-        <SectionHeading eyebrow="Encontrá tu local" title="Tenemos un HUMO cerca tuyo" />
+        <SectionHeading eyebrow="Encontrá tu local" title="Tenemos un Desembarco cerca tuyo" />
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {branches.map((b) => (
             <BranchCard key={b.id} branch={b} />

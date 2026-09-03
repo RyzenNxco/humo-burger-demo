@@ -11,5 +11,5 @@ export const demoOrders: DemoOrder[] = [
   { id: '#1035', customer: 'Bruno S.', items: '1x Triple Amenaza, 1x Papas', total: 16300, method: 'delivery', status: 'nuevo', time: '21:15' },
   { id: '#1034', customer: 'Vale T.', items: '1x Veggie Verde, 1x Agua', total: 9400, method: 'retiro', status: 'entregado', time: '20:55' },
   { id: '#1033', customer: 'Iván C.', items: '2x BBQ Rebelde, 2x Cerveza IPA', total: 26200, method: 'delivery', status: 'entregado', time: '20:40' },
-  { id: '#1032', customer: 'Sofi K.', items: '1x Nachos HUMO, 1x Nuggets', total: 12000, method: 'retiro', status: 'cancelado', time: '20:20' },
+  { id: '#1032', customer: 'Sofi K.', items: '1x Nachos Desembarco, 1x Nuggets', total: 12000, method: 'retiro', status: 'cancelado', time: '20:20' },
 ];

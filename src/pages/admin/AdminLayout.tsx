@@ -71,7 +71,7 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
       <div className="flex items-center justify-between border-b border-line p-5">
         <Link to="/" className="flex items-center gap-2">
           <span className="flex h-8 w-8 items-center justify-center rounded-full ember-gradient text-ink text-xs font-black">
-            H
+            D
           </span>
           <span className="text-display text-base text-cream">{businessConfig.name} Admin</span>
         </Link>

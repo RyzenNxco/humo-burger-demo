@@ -29,7 +29,7 @@ export function buildWhatsAppMessage(
   whatsappNumber: string
 ): { text: string; url: string } {
   const lines: string[] = [];
-  lines.push('🍔 *Nuevo pedido — HUMO Burger Co.*');
+  lines.push('🍔 *Nuevo pedido — El Desembarco*');
   lines.push('');
   lines.push(`👤 Nombre: ${info.name}`);
   lines.push(`📱 Teléfono: ${info.phone}`);

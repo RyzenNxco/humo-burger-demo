@@ -14,7 +14,7 @@ export const products: Product[] = [
     id: 'la-clasica',
     name: 'La Clásica',
     description: 'La de siempre, bien hecha: carne jugosa, cheddar y salsa de la casa.',
-    ingredients: 'Medallón smash, cheddar, lechuga, tomate, cebolla, salsa HUMO, pan brioche.',
+    ingredients: 'Medallón smash, cheddar, lechuga, tomate, cebolla, salsa de la casa, pan brioche.',
     price: 7200,
     image: img('photo-1568901346375-23c9450c58cd'),
     category: 'mas-vendidas',
@@ -212,7 +212,7 @@ export const products: Product[] = [
     id: 'papas-clasicas',
     name: 'Papas Clásicas',
     description: 'Bien doradas, con nuestra sal ahumada.',
-    ingredients: 'Papas fritas, sal ahumada HUMO.',
+    ingredients: 'Papas fritas, sal ahumada de la casa.',
     price: 3400,
     image: img('photo-1541592106381-b31e9677c0e5'),
     category: 'papas',
@@ -246,7 +246,7 @@ export const products: Product[] = [
   },
   {
     id: 'papas-humo-picante',
-    name: 'Papas Humo Picante',
+    name: 'Papas Picantes',
     description: 'Con nuestra salsa picante ahumada y cheddar.',
     ingredients: 'Papas fritas, salsa picante ahumada, cheddar, jalapeños.',
     price: 4600,
@@ -272,7 +272,7 @@ export const products: Product[] = [
   },
   {
     id: 'nuggets-humo',
-    name: 'Nuggets HUMO',
+    name: 'Nuggets Desembarco',
     description: '8 unidades de pollo crocante con salsa a elección.',
     ingredients: 'Nuggets de pollo, salsa BBQ o picante.',
     price: 5200,
@@ -296,7 +296,7 @@ export const products: Product[] = [
   },
   {
     id: 'nachos-humo',
-    name: 'Nachos HUMO',
+    name: 'Nachos Desembarco',
     description: 'Con cheddar fundido, panceta, jalapeños y guacamole.',
     ingredients: 'Nachos, cheddar, panceta, jalapeños, guacamole, pico de gallo.',
     price: 6800,
@@ -408,7 +408,7 @@ export const products: Product[] = [
   },
   {
     id: 'donuts-humo',
-    name: 'Mini Donuts HUMO',
+    name: 'Mini Donuts Desembarco',
     description: '5 unidades glaseadas, recién hechas.',
     ingredients: 'Donuts, glaseado a elección.',
     price: 4600,

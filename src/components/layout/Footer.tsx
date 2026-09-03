@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2">
               <span className="flex h-9 w-9 items-center justify-center rounded-full ember-gradient text-ink font-black text-sm">
-                H
+                D
               </span>
               <span className="text-display text-xl text-cream">{businessConfig.name}</span>
             </div>

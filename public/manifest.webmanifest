@@ -1,6 +1,6 @@
 {
-  "name": "HUMO Burger Co.",
-  "short_name": "HUMO",
+  "name": "El Desembarco",
+  "short_name": "Desembarco",
   "description": "Hamburguesas ahumadas a la parrilla. Pedí online o por WhatsApp.",
   "start_url": "/",
   "display": "standalone",
